@@ -1,0 +1,104 @@
+{
+  "id": "INSERT_YOUR_ID_HERE_FROM_ADOBE_CONSOLE",
+  "name": "UXP Vue 3 Plugin",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 4,
+  "host": {
+    "app": "XD",
+    "minVersion": "1.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "vue3panel",
+      "label": "Vue 3 Panel",
+      "minimumSize": {
+        "width": 200,
+        "height": 200
+      },
+      "maximumSize": {
+        "width": 200,
+        "height": 400
+      },
+      "preferredDockedSize": {
+        "width": 200,
+        "height": 200
+      },
+      "preferredFloatingSize": {
+        "width": 200,
+        "height": 200
+      },
+      "icons": [
+        {
+          "width": 24,
+          "height": 24,
+          "path": "icons/dark.png",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "theme": [
+            "darkest",
+            "dark",
+            "medium"
+          ]
+        },
+        {
+          "width": 24,
+          "height": 24,
+          "path": "icons/light.png",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ]
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "icons/dark.png",
+      "scale": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "theme": [
+        "darkest",
+        "dark",
+        "medium"
+      ]
+    },
+    {
+      "width": 24,
+      "height": 24,
+      "path": "icons/light.png",
+      "scale": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "theme": [
+        "lightest",
+        "light"
+      ]
+    }
+  ]
+}
